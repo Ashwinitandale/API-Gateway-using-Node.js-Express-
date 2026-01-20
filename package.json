@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-api-gateway-microservices",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.13.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "description": "Services: - API Gateway (3000) - User Service (4001) - Order Service (4002) - Product Service (4003)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
